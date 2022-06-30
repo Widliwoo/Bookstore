@@ -1,0 +1,7 @@
+allprojects {
+    ext {
+        set('spring.datasource.url', 'jdbc:postgresql://localhost:5432/bookstore')
+        set('spring.datasource.username', 'postgres')
+        set('spring.datasource.password', 'postgres')
+    }
+}
