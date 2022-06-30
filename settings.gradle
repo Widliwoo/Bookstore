@@ -1,5 +1,5 @@
 rootProject.name = 'Bookstore'
 
-include (['backend', 'book-service'])
+include 'backend:book-service'
 include 'frontend'
 
