@@ -1,8 +1,7 @@
 allprojects {
     ext {
-        setProperty('database.url', 'jdbc:postgresql://?????????:?????????/bookstore')
-        setProperty('database.port', '5432')
-        setProperty('database.user', 'postgres')
-        setProperty('database.password', 'postgres')
+        setProperty('databaseUrl', 'jdbc:postgresql://localhost:5432/bookstore')
+        setProperty('databaseUser', 'postgres')
+        setProperty('databasePassword', 'postgres')
     }
 }

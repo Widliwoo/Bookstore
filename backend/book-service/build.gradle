@@ -7,6 +7,14 @@ plugins {
 group = 'com.example'
 version = '1.0-SNAPSHOT'
 
+ext {
+    set('testcontainersVersion', "1.17.2")
+}
+
+processResources {
+    expand(project.properties)
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -17,9 +25,6 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    set('testcontainersVersion', "1.17.2")
-}
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
