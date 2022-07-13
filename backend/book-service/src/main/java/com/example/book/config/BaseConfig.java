@@ -1,6 +1,6 @@
 package com.example.book.config;
 
-import com.example.bookstoresecurity.CommonSecurityConfig;
+import com.example.bookstore.security.CommonSecurityConfig;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

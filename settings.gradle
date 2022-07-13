@@ -2,5 +2,6 @@ rootProject.name = 'Bookstore'
 
 include 'backend:book-service'
 include 'backend:bookstore-security'
+include 'backend:service-common'
 include 'frontend'
 
