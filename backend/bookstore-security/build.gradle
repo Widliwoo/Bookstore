@@ -19,6 +19,11 @@ dependencies {
     implementation 'org.springframework.session:spring-session-jdbc'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
+
+    compileOnly project(':backend:service-common')
+    implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
 
 tasks.named('test') {
