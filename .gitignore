@@ -2,3 +2,6 @@
 .idea
 **/build
 README.MD
+**/gradle
+**/gradlew
+**/gradlew.bat
